@@ -16,20 +16,22 @@ const Sketch = p5 => {
     }
 
     p5.draw = () => {
-        p5.rotateZ(120);        
+        p5.rotateZ(110);    
+        p5.rotateY(-10);
         p5.clear();
         p5.background(28, 28, 28);
         p5.orbitControl(4,4);
         
         for(let phi = 0; phi < 180; phi += 5) {
           p5.beginShape(p5.POINTS);
-          for(let theta = 0; theta < 360; theta +=5) {      
+          for(let theta = 0; theta < 360; theta +=5) {                
             let x = r * p5.cos(phi+offset);
             let y = r * p5.sin(phi+offset) * p5.sin(theta);
             let z = r * p5.sin(phi+offset) * p5.cos(theta);
             p5.vertex(x,y,z);            
           }
           p5.endShape(p5.CLOSE);
+         
         }        
         offset += 0.2;
     }

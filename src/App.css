@@ -13,6 +13,7 @@ html {
   background-color: var(--dark-gray);
   display: flex;
   flex-direction: row;  
+  text-emphasis-color: var(--light-pink);
 }
 
 #content {  
@@ -20,3 +21,6 @@ html {
   overflow-x: hidden;
   overflow-y: hidden;
 }
+*::selection {
+    background: var(--light-pink) !important;
+};
