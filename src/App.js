@@ -1,5 +1,5 @@
-import './App.css';
 import "./styles/Global.css";
+import './App.css';
 import Intro from './components/Intro';
 
 export default function App() {

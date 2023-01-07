@@ -4,6 +4,6 @@
     --dark-pink: #CF699A;
     --pink: #FCB1EA;    
     --white: #e6f1ff;  
-    --light-pink: #CF699A80;
+    --light-pink: rgb(207, 105, 154, 50%);
   }
   
