@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/anderley/static/css/main.da7acce8.css",
+    "main.css": "/anderley/static/css/main.3d5379ce.css",
     "main.js": "/anderley/static/js/main.1224a582.js",
     "static/js/787.0e99d40b.chunk.js": "/anderley/static/js/787.0e99d40b.chunk.js",
     "static/media/FiraCode-Regular.ttf": "/anderley/static/media/FiraCode-Regular.fc45da4c3e5b90c232a2.ttf",
     "index.html": "/anderley/index.html",
-    "main.da7acce8.css.map": "/anderley/static/css/main.da7acce8.css.map",
+    "main.3d5379ce.css.map": "/anderley/static/css/main.3d5379ce.css.map",
     "main.1224a582.js.map": "/anderley/static/js/main.1224a582.js.map",
     "787.0e99d40b.chunk.js.map": "/anderley/static/js/787.0e99d40b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da7acce8.css",
+    "static/css/main.3d5379ce.css",
     "static/js/main.1224a582.js"
   ]
 }
