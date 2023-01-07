@@ -8,7 +8,7 @@
 }
 
 .Typist .Cursor--blinking {
-    color: var(--pink);    
+    color: var(--dark-pink);    
     font-size: 64px;
 }
 .intro-title {
