@@ -27,15 +27,15 @@ class Intro extends React.Component {
             <Typist avgTypingDelay={120}>
                 <span className="intro-title">
                     {"hi, it's "}                    
-                    <span className="intro-name">{"Anderley Candela"}</span>            
+                    <span className="intro-name">{"Anderley"}</span>            
                 </span>
             </Typist>
-            {"I'm a software engineer based in Lima, PE"}
-            <br/>
-            {"specializing in building websites and software systems"}
-            <br/>                        
-            {'I have great interest in full-stack development, data science and tech stuff.'}
-            <br/>
+            <div className="intro-desc">
+              {"I'm a software engineer based in Lima, PE, specializing in building websites and software systems."}
+              <br/>                        
+              {'I have great interest in full-stack development, data science and tech stuff.'}
+              <br/>
+            </div>            
             <a className="intro-link" href="#about">{"see more >"}</a>
         </div>        
       </div>

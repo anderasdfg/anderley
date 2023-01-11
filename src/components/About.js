@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/About.css";
+import FadeInSection from "./FadeInSection";
 
 class About extends React.Component {
   constructor() {
@@ -49,11 +50,13 @@ class About extends React.Component {
                </p>
                 <ul className="tech-stack">
                 {tech_stack.map(function (tech_item, i) {
-                  return (                    
+                  return (  
+                    <FadeInSection delay={`${i + 1}00ms`}>                  
                     <li>
                       <img src={tech_item.url}/>
                       <p>{tech_item.stack}</p>
                     </li>                    
+                    </FadeInSection>
                   );
                 })}
               </ul>
