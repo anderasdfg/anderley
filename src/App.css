@@ -21,6 +21,30 @@ html {
   overflow-x: hidden;
   overflow-y: hidden;
 }
+
 *::selection {
     background: var(--light-pink) !important;
+}
+
+.section-header {
+  display: flex;
+  /* padding-bottom: 42px; */
+  width: 100vw;
+}
+/* 
+.section-header::after {
+  content: "";
+  display: block;
+  width: 300px;
+  margin-top: 39px;
+  height: 1px;
+  margin-left: 20px;
+  background-color: var(--light-pink);
+}
+*/
+.section-title {
+  font-family: "FiraCode";
+  color: var(--dark-pink);
+  font-size: 48px;
+  font-weight: bold;
 }
