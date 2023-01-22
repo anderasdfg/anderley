@@ -12,9 +12,8 @@ export default function App() {
   useEffect(() => {
     const handleMove = (event) => {
       //TODO: Fix this issue
-      const { clientX, clientY } = event
-      console.log('');
-      setPosition({ x: clientX, y: clientY + scrollY });
+      const { clientX, clientY } = event      
+      setPosition({ x: clientX, y: clientY + window.scrollY });
     };
 
     window.addEventListener("mousemove", handleMove);    
