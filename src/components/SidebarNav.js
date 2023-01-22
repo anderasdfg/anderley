@@ -25,10 +25,11 @@ class SidebarNav extends React.Component {
     const { expanded } = this.state;
 
     const links = [      
+      <a href="#intro">{'> home'}</a>,
       <a href="#about">{'> about'}</a>,
       <a href="#experience">{'> experience'}</a>,
-      <a href="#work">{'> work'}</a>,
-      <a href="#contact">{'> contact'}</a>
+      // <a href="#work">{'> work'}</a>,
+      // <a href="#contact">{'> contact'}</a>
     ];
 
     return (

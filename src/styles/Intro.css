@@ -1,86 +1,82 @@
 #intro {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;    
-    padding-top: 15%; 
-    min-height: 100vh;    
-    justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 15%;
 }
 .Typist {
   margin-bottom: 32px;
 }
 .Typist .Cursor--blinking {
-    color: var(--pink);    
-    font-size: 64px;
+  color: var(--pink);
+  font-size: 64px;
 }
-.intro-content {    
-    font-family: "FiraCode";
-    color: var(--gray);
-    font-size: 24px;
-    padding-left: 3%;
-    display: flex;
-    flex-direction: column;    
-    width: 50%;    
+.intro-content {
+  color: var(--gray);
+  display: flex;
+  flex-direction: column;
+  font-family: "FiraCode";
+  font-size: 24px;
+  padding-left: 3%;
+  width: 50%;
 }
 
-.intro-title {    
-    color: var(--gray);
-    font-size: 48px;        
+.intro-title {
+  color: var(--gray);
+  font-size: 48px;
 }
-.intro-name {    
-    color: var(--dark-pink);
-    font-weight: bold;
-    font-size: 64px;
+.intro-name {
+  color: var(--dark-pink);
+  font-size: 64px;
+  font-weight: bold;
 }
 .intro-link {
-    color: var(--dark-pink);
-    font-size: 24px;
-    cursor: pointer;    
-    margin-top: 32px;
+  color: var(--dark-pink);
+  cursor: pointer;
+  font-size: 24px;
+  margin-top: 32px;
 }
 .intro-link:hover {
-    color: var(--pink);
+  color: var(--pink);
 }
 
-
 @media only screen and (max-width: 600px) {
-
-    #intro {
-      min-height: unset;
-      padding-left: unset;
-      margin: 0;
-      align-items: center;
-      flex-direction: column;      
-    }
-    .intro-content {
-        width: 90%; 
-        padding-left:0px;
-    }
-  
-    .intro-title {      
-      font-size: 24px;
-    }
-    .intro-name {      
-      font-size: 24px;
-    }    
-    .Typist {
-      font-size: 24px;
-      margin-top: 10px;
-      text-align: center;
-    }
-    .Typist .Cursor--blinking {     
-       font-size: 24px;
-    }
-
-    .intro-desc {
-       font-size: 18px;
-      text-align: center;   
-    }
-  
-
-    .intro-link {
-       font-size: 18px;
-       text-align: center;
-    }
+  #intro {
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    min-height: unset;
+    padding-left: unset;
   }
-    
+  .intro-content {
+    width: 90%;
+    padding-left: 0px;
+  }
+
+  .intro-title {
+    font-size: 24px;
+  }
+  .intro-name {
+    font-size: 24px;
+  }
+  .Typist {
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .Typist .Cursor--blinking {
+    font-size: 24px;
+  }
+
+  .intro-desc {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .intro-link {
+    font-size: 18px;
+    text-align: center;
+  }
+}

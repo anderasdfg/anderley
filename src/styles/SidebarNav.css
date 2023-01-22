@@ -1,12 +1,12 @@
 .sidebar-nav {
+    align-items: flex-start;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    padding-right: 5%;
     position: fixed;
     right: 0;
-    padding-right: 5%;
     top: 10%;
-    background-color: transparent;
   }
   
   .rs-sidenav-subtle {
@@ -16,18 +16,18 @@
   .sidebar-links {
     display: flex;
     flex-direction: column;
-    text-align: left;
     font-family: "FiraCode", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
     letter-spacing: 0em;
     line-height: 1.6em;
-    font-size: 16px;
     padding: 0.2em;
-    font-weight: bold;
+    text-align: left;
   }
   
   a {
-    text-decoration: none !important;
     color: var(--dark-pink) !important;
+    text-decoration: none !important;
   }
   
   a:hover {
@@ -41,25 +41,25 @@
   
   @media only screen and (max-width: 600px) {
     .sidebar-nav {
-      width: 100%;
-      height: 50px;
       display: none;
+      height: 50px;
+      width: 100%;
     }
   
     .sidebar-links {
-      padding-left: 20px;
       flex-direction: row;
-      text-align: right;
       font-size: 9px;
+      padding-left: 20px;
+      text-align: right;
     }
   
     .sidebar-logos {
-      padding-top: 0px;
-      width: 100px;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
       padding-left: 50%;
+      padding-top: 0px;
+      width: 100px;
     }
   
     img {
@@ -69,12 +69,12 @@
   
   @media only screen and (max-width: 600px) {
     .sidebar-nav {
-      position: unset;
       align-items: center;
+      position: unset;
     }
     .sidebar-logos {
-      width: 70px;
       padding-left: unset;
+      width: 70px;
     }
   }
   
