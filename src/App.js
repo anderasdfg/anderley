@@ -10,8 +10,7 @@ import { useEffect, useState } from "react";
 export default function App() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   useEffect(() => {
-    const handleMove = (event) => {
-      //TODO: Fix this issue
+    const handleMove = (event) => {      
       const { clientX, clientY } = event      
       setPosition({ x: clientX, y: clientY + window.scrollY });
     };

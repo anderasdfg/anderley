@@ -4,7 +4,7 @@ import Sphere from "./Sphere";
 import Typist from "react-typist";
 import "react-typist/dist/Typist.css";
 
-class Intro extends React.Component {
+class Intro extends React.Component {  
   constructor() {
     super();
     this.state = {
@@ -18,7 +18,7 @@ class Intro extends React.Component {
     this.setState({
       activeKey: eventKey
     });
-  }
+  }  
   render() {
     return (
       <div id="intro">
