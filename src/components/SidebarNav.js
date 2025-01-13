@@ -2,7 +2,6 @@ import React from "react";
 import { Sidenav } from "rsuite";
 
 import "../styles/SidebarNav.css";
-import "react-typist/dist/Typist.css";
 import FadeInSection from "./FadeInSection";
 
 const isMobile = window.innerWidth < 600;

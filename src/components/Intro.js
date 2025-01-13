@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/Intro.css";
 import Sphere from "./Sphere";
-import Typist from "react-typist";
-import "react-typist/dist/Typist.css";
+import { TypeAnimation } from 'react-type-animation'; // Nuevo import
+
 
 class Intro extends React.Component {  
   constructor() {
@@ -24,12 +24,16 @@ class Intro extends React.Component {
       <div id="intro">
         <Sphere/>        
         <div className="intro-content">
-            <Typist avgTypingDelay={120}>
-                <span className="intro-title">
-                    {"hi, it's "}                    
-                    <span className="intro-name">{"Anderley"}</span>            
+        <span className="intro-title">
+        <TypeAnimation
+                    sequence={[
+                        "hi, it's Anderley",
+                    ]}
+                    wrapper="span"
+                    speed={50}
+                    style={{ display: 'inline-block' }}
+                />
                 </span>
-            </Typist>
             <div className="intro-desc">
               {"I'm a software engineer based in Lima, PE, specializing in building websites and software systems."}
               <br/>                        

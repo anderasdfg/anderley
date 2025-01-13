@@ -82,8 +82,19 @@ const Jobs = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
+    CSTI: {
+      jobTitle: "Frontend Developer @",
+      duration: "JUN 2023 - PRESENT",
+      desc: [
+        "Working with Culqi",
+        "Pioneered the use of module federation with Vite-plugin-federation, enabling dynamic microfrontend integration without compromising performance.",
+        "Integration of backend services with the frontend, using best practices and patterns. Technologies: Vue.js, Vite, TailwindCSS, Typescript.",
+        "Collaborated with cross-functional teams, including product managers and backend developers, to deliver seamless integrations and meet tight deadlines."
+        
+      ]
+    },   
     Attach: {
-      jobTitle: "Frontend Developer Analytics @",
+      jobTitle: "Analytics Engineer @",
       duration: "FEB 2022 - PRESENT",
       desc: [
         "Tagging and validation of digital asset measurement.",
@@ -100,7 +111,8 @@ const Jobs = () => {
         "Responsible for the implementation of a patient care system for the reservation and payment of medical appointments, available 24 hours a day with more than 100 users per minute on web, web responsive and ATM in order to reduce the time that patients are attended in person at clinics and hospitals.",
         "Responsible for the development of the company's internal process management system."
       ]
-    },    
+    }, 
+    
   };
 
   const handleChange = (event, newValue) => {
