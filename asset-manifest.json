@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/anderley/static/css/main.31e15139.css",
-    "main.js": "/anderley/static/js/main.cd7907e2.js",
-    "static/js/787.0e99d40b.chunk.js": "/anderley/static/js/787.0e99d40b.chunk.js",
+    "main.css": "/anderley/static/css/main.26b36124.css",
+    "main.js": "/anderley/static/js/main.6dc8d6ed.js",
+    "static/js/453.24c6d050.chunk.js": "/anderley/static/js/453.24c6d050.chunk.js",
     "static/media/FiraCode-Regular.ttf": "/anderley/static/media/FiraCode-Regular.fc45da4c3e5b90c232a2.ttf",
     "index.html": "/anderley/index.html",
-    "main.31e15139.css.map": "/anderley/static/css/main.31e15139.css.map",
-    "main.cd7907e2.js.map": "/anderley/static/js/main.cd7907e2.js.map",
-    "787.0e99d40b.chunk.js.map": "/anderley/static/js/787.0e99d40b.chunk.js.map"
+    "main.26b36124.css.map": "/anderley/static/css/main.26b36124.css.map",
+    "main.6dc8d6ed.js.map": "/anderley/static/js/main.6dc8d6ed.js.map",
+    "453.24c6d050.chunk.js.map": "/anderley/static/js/453.24c6d050.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31e15139.css",
-    "static/js/main.cd7907e2.js"
+    "static/css/main.26b36124.css",
+    "static/js/main.6dc8d6ed.js"
   ]
 }
